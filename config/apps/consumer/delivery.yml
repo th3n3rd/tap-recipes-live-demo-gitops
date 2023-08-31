@@ -38,7 +38,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv-polite-turtle/consumer-apps@sha256:233bfa01d334513cbddf6d6647b34c12df6fa458918dbffa766abcc3394a381a
+        image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv-polite-turtle/consumer-apps@sha256:a0a5e1bad3e558f5c6ff5814a4d4e2a7ed28c34edbad0fb9c105caa9dde91cf2
         name: workload
         ports:
         - containerPort: 8080
